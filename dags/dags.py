@@ -17,7 +17,7 @@ profile_config_prod = ProfileConfig(
     target_name = "prod",
     profile_mapping=PostgresUserPasswordProfileMapping(
         conn_id="railway_postgres_db",
-        profile_args={"schema": "public", "database": "railway"}
+        profile_args={"schema": "public"}
     ),
 )
 
